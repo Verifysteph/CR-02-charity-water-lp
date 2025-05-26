@@ -67,14 +67,15 @@ body, html {
 
 /* Hero Section */
 .hero {
-  background-image: url("https://via.placeholder.com/1200x800"); /* Replace this */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+  /* Sets your own image as the background for the hero section */
+  background-image: url("developing-countries-clean-water.jpg"); /* Use your image file name */
+  background-size: cover;      /* Makes the image cover the whole section */
+  background-position: center; /* Centers the image */
+  height: 100vh;               /* Makes the hero section as tall as the screen */
   display: flex;
   align-items: center;
   position: relative;
-  padding-top: 80px; /* space for navbar */
+  padding-top: 80px;           /* Space for navbar */
 }
 
 .hero-overlay {
